@@ -1,0 +1,18 @@
+
+calltarget:
+
+configureMode:
+     [echo] in target configureMode
+
+decideMode:
+     [echo] in target decideMode
+     [echo] HTTP=${isHTTP} HTTPS=${isHTTPS}
+
+configureHTTP:
+     [echo] in target configureHTTP
+
+decideMode:
+     [echo] in target decideMode
+     [echo] HTTP=${isHTTP} HTTPS=${isHTTPS}
+
+configureHTTPS_JRE:
